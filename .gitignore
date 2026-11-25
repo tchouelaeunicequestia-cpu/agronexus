@@ -36,3 +36,21 @@ firmware/.pio/
 *.iml
 .DS_Store
 Thumbs.db
+
+# secrets and local files
+.env
+.env.*
+!.env.example
+# Java
+backend/target/
+*.class
+*.jar
+# Flutter
+client/build/
+client/.dart_tool/
+client/.flutter-plugins*
+# editors and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
